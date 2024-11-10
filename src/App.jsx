@@ -4,7 +4,7 @@ import Canvas from './components/Canvas'
 import Chat from './components/Chat'
 import PlayerList from './components/PlayerList'
 
-const socket = io(import.meta.env.VITE_SERVER_URL || 'https://testv2-1lna.onrender.com')
+const socket = io(import.meta.env.https://testv2-1lna.onrender.com)
 
 export default function App() {
   const [playerName, setPlayerName] = useState('')
